@@ -76,15 +76,15 @@ __PACKAGE__->meta->make_immutable;
 
 =head1 SYNOPSIS
 
-In C<dist.ini>:
+In F<dist.ini>:
 
  [RenderTemplate]
 
-In C</some/path/template.txt>:
+In F</some/path/template.txt>:
 
  Hello, {{ username }}!
 
-In lib/Foo.pm:
+In F<lib/Foo.pm>:
 
  ...
 
